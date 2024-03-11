@@ -15,8 +15,8 @@ body{
     background:#eeeff1;
     color: #000;
     font-size: 16px;
-    line-height: 1.64;
-    font-family: "Graphik";
+    line-height: 1.64px;
+    font-family: "Graphik", sans-serif;
  }
 
 .header{
@@ -26,20 +26,28 @@ body{
     display: flex; 
     border-bottom: 1px solid grey;   
     margin: 0 auto; 
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background:#eeeff1;*/
 }
+
 
 .header-logo{    
     width: 130px;
     height: 28px;
     display: flex;
     margin: 0 51px;
+    
 }
 
 .nav{
     margin-right: 305px;
     text-decoration: none;
     width: 592px;
-    height: 40px;    
+    height: 40px;   
+    padding-top: 15px;
     }
 
 .nav a:not(:last-of-type){
@@ -91,15 +99,16 @@ body{
 }
 
 .btn1{
-    width: 260px;
+    width: 350px;
     height: 46px;
+    padding-top: 15px;
 }
 
 .Log{
     background-color: white;
     color: #000000;
     text-decoration: none;
-    padding: 22.5px 36px;
+    padding: 12px 36px;
     font-weight: 700;
     border: 1px solid black;  
     margin: 0px 10px;
@@ -111,7 +120,7 @@ body{
     background-color: #FF7400;
     color: white;
     text-decoration: none;
-    padding: 22.5px 22px 22.5px 21px;
+    padding: 12px 22px;
     font-weight: 700;  
     width: 120px;
     height: 45px; 
@@ -231,7 +240,6 @@ height: 455px;
 .Thepreferred{
 width: 720px;
 height: 120px;
-font-family: Graphik LC TT;
 font-size: 50px;
 font-weight: 600;
 line-height: 60px;
@@ -274,7 +282,7 @@ margin: auto;
 }
 
 .f1{
-    font-family: Graphik LC TT;
+   
     font-size: 50px;
     font-weight: 600;
     line-height: 60px;
@@ -287,14 +295,14 @@ margin: auto;
 }
 
 .f2{
-    font-family: Graphik LC TT;
+  
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
     
-    font-family: Roboto;
+   
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -308,7 +316,7 @@ margin: auto;
 }
 
 .f3{
-    font-family: Graphik LC TT;
+    
 font-size: 20px;
 font-weight: 600;
 line-height: 30px;
@@ -352,7 +360,7 @@ text-align: left;
     }
     
     .Shorten{
-        font-family: Graphik LC TT;
+        
         font-size: 50px;
         font-weight: 600;
         line-height: 60px;
@@ -365,14 +373,14 @@ text-align: left;
     }
     
     .Localize{
-        font-family: Graphik LC TT;
+        
         font-size: 20px;
         font-weight: 400;
         line-height: 30px;
         letter-spacing: 0em;
         text-align: left;
         
-        font-family: Roboto;
+      
         font-size: 20px;
         font-weight: 400;
         line-height: 30px;
@@ -386,7 +394,7 @@ text-align: left;
     }
     
     .f3{
-        font-family: Graphik LC TT;
+        
     font-size: 20px;
     font-weight: 600;
     line-height: 30px;
@@ -429,7 +437,7 @@ padding-top: 120px;
 }
         
 .container-4{
-font-family: Graphik LC TT;
+
 font-size: 50px;
 font-weight: 600;
 line-height: 60px;
@@ -463,7 +471,7 @@ padding-top: 21px;
     margin-right: 40px;
 }
 
-.text11{font-family: Graphik LC TT;
+.text11{
 font-size: 25px;
 font-weight: 600;
 line-height: 35px;
@@ -475,7 +483,7 @@ height: 35px;
 }
 
 .text12{
-font-family: Graphik LC TT;
+
 font-size: 18px;
 font-weight: 400;
 line-height: 25px;
@@ -487,7 +495,7 @@ margin: 0 13px 3px 14px;
 display: flex; 
 }
 
-.text21{font-family: Graphik LC TT;
+.text21{
     font-size: 25px;
     font-weight: 600;
     line-height: 35px;
@@ -499,7 +507,7 @@ display: flex;
     }
     
     .text22{
-    font-family: Graphik LC TT;
+
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -530,7 +538,7 @@ margin: 0 auto;
 .container-5{
 width: 1290px;
 height: 60px; 
-font-family: Graphik LC TT;
+
 font-size: 50px;
 font-weight: 600;
 line-height: 60px;
@@ -553,7 +561,7 @@ margin: 25px 0 25px 0;
 }
 
 .text61{
-font-family: Graphik LC TT;
+
 font-size: 30px;
 font-weight: 600;
 line-height: 40px;
@@ -563,7 +571,7 @@ margin: 49px 275px 34px 0;
 }
 
 .text62{
-font-family: Graphik LC TT;
+
 font-size: 20px;
 font-weight: 400;
 line-height: 30px;
@@ -588,7 +596,7 @@ margin-right: 30px;
 }
 
 .container-72{
-font-family: Graphik LC TT;
+
 font-size: 30px;
 font-weight: 400;
 line-height: 40px;
@@ -599,7 +607,7 @@ height: 160px;
 }
 
 .container-73{
-font-family: Roboto;
+
 font-size: 15px;
 font-weight: 400;
 line-height: 25px;
@@ -635,7 +643,7 @@ height: 25.04px;
 .container-82{
     width: 461px;
     height: 100px; 
-    font-family: Graphik LC TT;
+
 font-size: 35px;
 font-weight: 600;
 line-height: 50px;
@@ -679,7 +687,7 @@ margin: 116px 125px 111px 0px;
 .container-91{
     width: 791px;
     height: 150px; 
-    font-family: Graphik LC TT;
+ 
 font-size: 65px;
 font-weight: 600;
 line-height: 75px;
@@ -691,7 +699,7 @@ margin:169px auto 0 auto;
 .container-92{
     width: 539px;
     height: 60px; 
-    font-family: Graphik LC TT;
+
 font-size: 25px;
 font-weight: 400;
 line-height: 30px;
@@ -753,7 +761,7 @@ margin:0 auto 25px auto;
 }
 
 .container-102{
-    font-family: "Graphik" sans-serif;
+    
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;

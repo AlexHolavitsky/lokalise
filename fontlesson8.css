@@ -1,9 +1,8 @@
 @font-face {
   font-family: "Graphik";
   font-weight: 600;
-  src:local("Graghik"),/* ищем локально на компе*/
-  url("../fontslesson8/Graphik-Semibold.woff2") format("webopenfontformat2")
-  url("../fontslesson8/Graphik-Semibold.woff") format("webopenfontformat")
+  src:url("../fontslesson8/Graphik-Semibold.woff2") format("woff2"),
+  url("../fontslesson8/Graphik-Semibold.woff") format("woff"),
   url("../fontslesson8/Graphik-Semibold.ttf") format("truetype");
   /*указываем ссылку и 
   прописываем полное название формата*/
@@ -16,7 +15,7 @@
   font-family: "Graphik";
   font-weight: 400;
   src:local("Graghik"),
-  url("../fontslesson8/Graphik-Regular.woff2") format("webopenfontformat2")
-  url("../fontslesson8/Graphik-Regular.woff") format("webopenfontformat")
+  url("../fontslesson8/Graphik-Regular.woff2") format("woff2"),
+  url("../fontslesson8/Graphik-Regular.woff") format("woff"),
   url("../fontslesson8/Graphik-Regular.ttf") format("truetype");
 }
