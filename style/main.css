@@ -16,6 +16,7 @@ color: inherit;
 font: inherit;    
 outline: none;
 box-sizing: border-box;
+text-decoration: none;
 }
 
 body{
@@ -70,10 +71,16 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
+    
 }
 
 header.btn{
 width: 120px;   
+}
+
+header nav a:not(:lost-child){
+    margin-right:42px;
 }
 
 header .btn-group{
@@ -82,4 +89,13 @@ margin-left: auto;
 
 .header-content{    
 gap: 50px;
+padding: 25px 0 24px;
+}
+
+.header-content .btn{    
+height: 45px;
+}
+
+.header-content .btn-group{
+ gap:10px
 }
