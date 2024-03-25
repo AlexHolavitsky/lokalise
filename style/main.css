@@ -99,7 +99,7 @@ header .container{
     width: 1440px;
     background: white;
     border-bottom: 1px solid black;
-    height: 95px;
+    height: 89px;
     z-index: 1;
     padding: 0 50px;
     
@@ -537,14 +537,17 @@ header .btn{
 
 footer{
     background: #EEEEEE;   
-    padding: 45px 75px;
-   
+    padding: 45px 75px;  
+  
     }
-    .footer{
+    .footer-container{       
+    width: 1440px;
+ 
+    }
+    .footer{ 
     display: flex;
     flex-wrap: wrap;
-    list-style: none;   
-  
+    list-style: none; 
     }  
     footer li:first-child{   
     width: 90px; 
