@@ -25,7 +25,7 @@ line-height: 150%;
 font-family: "Graphik", sans-serif;
 }
 .container{
-max-width: calc(1290px + 40px);
+max-width: calc(1380px);
 margin: 0 auto;
 padding: 0 20px;
 }
@@ -85,20 +85,25 @@ text-align: center;
 letter-spacing: 0.035em;  
 }    
 header{
-position: fixed;
-top: 0;
-width: 1440px;
-background: white;
-border-bottom: 1px solid black;
-height: 95px;
-z-index: 1;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 header img{
 width: 130px;
 height: 28px;
 }
 header .container{
-max-width: calc(1338px + 20px + 20px);
+    position: fixed;
+    top: 0;
+    width: 1440px;
+    background: white;
+    border-bottom: 1px solid black;
+    height: 95px;
+    z-index: 1;
+    
+   
+
 }
 main{
 padding-top: 95px;
@@ -117,7 +122,7 @@ header .btn{
     }
     .header-content{    
     gap: 51px;
-    padding: 25px 0 24px;
+    padding: 21px  0 24px;
     align-items: center;
     }
     .header-content .img{    
@@ -132,6 +137,9 @@ header .btn{
 #product{
     padding: 125px 0 147px; 
     height: 860px;  
+    }
+    #product .container{
+        width: 1330px;
     }
     #product .lc{
     max-width: 539px;
@@ -165,15 +173,19 @@ header .btn{
     width: 1440px;
     height: 455px ;
     background: #FF9C7D;     
-    padding: 108px 0 94px 50px;  
+    padding: 105px 0 94px 50px;  
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    }
+    #features .container{
+    width: 1330px;  
     }
     #features h2{    
     max-width: 700px;
     height: 120px;
     margin: 0 0 0 356px;
+    letter-spacing: 0.035px;
     }
     #features .flex-container{ 
     align-items: center;   
@@ -308,6 +320,9 @@ header .btn{
 #resources {
     padding: 152px 0 0 0;  
     }   
+    #resources .container{
+    width: 1330px;    
+    }
     #resources .container .flex{    
     margin: 75px 0 0 0;
     }      
@@ -522,11 +537,13 @@ header .btn{
 footer{
     background: #EEEEEE;   
     padding: 45px 75px;
+   
     }
     .footer{
     display: flex;
     flex-wrap: wrap;
-    list-style: none;    
+    list-style: none;   
+  
     }  
     footer li:first-child{   
     width: 90px; 
