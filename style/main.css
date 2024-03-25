@@ -25,7 +25,7 @@ line-height: 150%;
 font-family: "Graphik", sans-serif;
 }
 .container{
-max-width: calc(1380px);
+max-width: calc(1440px);
 margin: 0 auto;
 padding: 0 20px;
 }
@@ -101,6 +101,7 @@ header .container{
     border-bottom: 1px solid black;
     height: 95px;
     z-index: 1;
+    padding: 0 50px;
     
    
 
