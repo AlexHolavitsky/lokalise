@@ -115,7 +115,7 @@ header .btn{
     font-size: 15px;
     }
     header nav a:not(lost-child){
-    margin-right: 54px;
+    margin-right: 24px;
     }
  
     .header-content{    
@@ -183,21 +183,22 @@ header .btn{
     justify-content: center;
     }
     #features h2{    
-    max-width: 700px;
-    /*height: 120px;*/
-    /*margin: 0 0 0 356px;*/  
+    max-width: 700px;  
     letter-spacing: 0.035px;   
     text-align: center; 
     }
     #features .flex-container{ 
     align-items: center;   
-    margin: 70px 0 0;
+    margin-top: 70px;
     list-style: none;   
     display: flex;
     flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
     }
     #features .flex-container .flex-item{
-    margin-right: 103px ; 
+    justify-content: space-around;
+    flex-wrap: wrap;
     }
    
 #pricing {
@@ -207,11 +208,11 @@ header .btn{
     min-width: 100vh;
     margin: 20px auto 20px;
     }
-   .flex-item{
+    #pricing .flex-item{
       margin: 0 auto;
     }
     .Control1{
-      margin: 20px 0 0 0;
+    margin: 20px 0 0 0;
     max-width: 657.91px;
     min-height: 341px;   
     }   
@@ -268,35 +269,34 @@ header .btn{
     min-width: 100vh;
     }
     .bot{
-      margin: 0 auto; 
-    
+   
     }
     #case_studies h2{   
     text-align: center; 
     margin: 0 auto;         
     }
     #case_studies .wrapper1 {   
-    max-width: 1290px;
+    /*max-width: 1290px;*/
     margin: 20px auto;
     padding: 0 40px;
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;  
     gap:20px;
     justify-content: center;
     }
     #case_studies .wrapper2 {   
-    max-width: 1290px;
+    /*max-width: 1290px;*/
     margin: 20px auto;
     padding: 0 40px;
-    display: flex;
+    /*display: flex;*/
     flex-wrap: wrap;   
     gap: 20px;
     justify-content: center;
     }
     #case_studies .flex-item{      
     max-width: 330px;
-    min-height: 294px;
-    justify-content: center;
+    /*min-height: 294px;*/
+    margin: 0 auto; 
     }
     #case_studies .icon{
     max-width: 160px;
@@ -309,7 +309,7 @@ header .btn{
     letter-spacing: 0.035em;
     }
     #case_studies p{
-    margin: 20px 0 0 0;
+    margin: 20px auto 0;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
@@ -444,7 +444,6 @@ header .btn{
   min-width: 100vh;  
   }
  .section-11{    
-
   min-height: 775px;
   margin: 0 auto;
   padding-top: 52px;
@@ -455,10 +454,8 @@ header .btn{
   .menu1{    
     margin: 0 auto;
   max-width: 300px; 
-
   }  
   #menu h5{
-  /*font-size: 20px;*/
   line-height: 30px; 
   }
   .bicicle{
@@ -470,17 +467,14 @@ header .btn{
   .menu2{
   display: flex;
   flex-wrap: wrap; 
-margin: 0 auto;
-justify-content: center ;
   }  
   .menu2-item{
-  max-width: 187px;
   min-height: 280px;
-  display: flex;
   flex-wrap: wrap;
-  padding: 20px 20px; 
+  /*padding: 20px 20px; */
+  margin: 0 auto;
   }
-  .menu2-item2{  
+  .menu2-item2{    
   margin-top: 9px;
   list-style: none;
   }
@@ -489,7 +483,7 @@ justify-content: center ;
   font-weight: 400;
   line-height: 15px;
   letter-spacing: 0.035em;  
-  }
+}
 
 
 footer{
@@ -649,8 +643,6 @@ footer{
 
 
 
-
-
 @media (min-width: 1024px) {
   .desktop{ display: flex;}
   .mobile-burger{ display: none;}
@@ -690,15 +682,16 @@ footer{
       font-size: 15px;
       }
       header nav a:not(lost-child){
-      margin-right: 54px;
+      gap: 20px;
       }
       header .btn-group{
       margin-left: auto;
       }
       .header-content{    
-      gap: 51px;
+      gap: 40px;
       padding: 21px  0 24px;
       align-items: center;
+      justify-content: space-between;
       }
       .header-content .img{    
       margin-bottom: -5px;
@@ -710,23 +703,16 @@ footer{
       gap: 10px; 
   }
   #product{
-      padding: 125px 0 147px; 
-     /* height: 860px;  */
-    
-      }
-      #product .container{
-      
+      padding: 125px 5px 147px; 
       }
       #product .flex{    
       justify-content: center; 
       }
       #product .lc{
       max-width: 539px;
-    
       }
       #product .rc{
       margin-top: 20px;
-      
       }
       #product .caption{
       font-size: 15px;
@@ -749,11 +735,8 @@ footer{
       height: 60px;
   }
   #features{
-      /*width: 1440px;*/
-      /*height: 455px ;*/
       background: #FF9C7D;     
-      padding: 105px 0 94px 0px /*50px*/;  
-     /* margin: 0 auto;*/
+      padding: 105px 0 94px 0px ;  
       display: flex;
       flex-wrap: wrap;  
       justify-content: center;   
@@ -765,22 +748,21 @@ footer{
       justify-content: center; 
       }
       #features h2{    
-      max-width: 700px;
-      /*height: 120px;*/
-      /*margin: 0 0 0 356px;*/  
+      max-width: 700px; 
       letter-spacing: 0.035px;   
       text-align: center; 
       }
       #features .flex-container{ 
       align-items: center;   
-      margin: 70px 0px 0px 0px;
+      margin-top: 70px;
       list-style: none;   
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 100px;
       }
-      #features .flex-container .flex-item{
-      margin-right: 103px ; 
-      } 
+
+      
       #features .flex-container .flex-item:nth-last-of-type(1){
       margin-right: 0;
   } 
@@ -792,9 +774,6 @@ footer{
       margin: 93px auto 90px ;
       row-gap: 250px;
       }
-     /*.flex-item{  
-     height: 632px; 
-      }*/
       .Control1{
       margin: 145px 0px 145.5px 0px;
       width: 657.91px;
@@ -1092,7 +1071,7 @@ footer{
       }
       .menu1{    
       max-width: 300px; 
-     margin-right: 140px;
+      justify-content: space-between;
 
       }  
       #menu h5{
@@ -1161,4 +1140,4 @@ footer{
       }      
     }
     
-
+  
